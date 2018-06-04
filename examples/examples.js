@@ -30,7 +30,7 @@ console.log('Are the two "Classrooms" strings the same?', oldWay === newWay);
 var mmm = ['chocolate', 'vanilla', 'strawberry'];
 var iceCreamCone = document.getElementById('cone');
 
-function scoop(){
+function scoop() {
   var good = Math.floor(Math.random() * mmm.length);
 
   // var scoop = `<img src="img/${mmm[good]}.jpg" title="${mmm[good]}" />`;
@@ -45,3 +45,4 @@ document.getElementById('yum').addEventListener('click', scoop);
 // LET & CONST
 
 // Follow the instructions in the browser to look at some examples of using let and const.
+
